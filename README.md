@@ -10,7 +10,7 @@ curl -o planet.osm.bz2 https://download.geofabrik.de/asia/vietnam-latest.osm.bz2
 # 2. Build
 
 ```
-docker build -t overpass-api.0.7.53 .
+sudo docker build -t overpass-api.0.7.53 .
 ```
 
 # 3. Run
