@@ -27,17 +27,8 @@ docker ls -all
 ```
 
 # 4. Test
-Dùng postman:<br/>
-http://localhost:8888/api/interpreter<br/>
-Method post<br/>
-Data body dạng text:
-```
-[out:json][timeout:25];
-(
-  way["name"="Nguyễn Văn Linh"](16.026098131077337,108.17988395690917,16.099257728555084,108.27481269836426);
-);
-out body;
-```
+Truy cập url: 
+http://localhost:8888/api/interpreter?data=[out:json][timeout:25];(way[%22name%22=%22Nguy%E1%BB%85n%20V%C4%83n%20Linh%22](16.026098131077337,108.17988395690917,16.099257728555084,108.27481269836426););out%20body;
 
 # Kết quả test:
 {
