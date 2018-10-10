@@ -23,7 +23,7 @@ docker run -d -p 8888:80 overpass-api.0.7.53
 
 Hiện thị server đang start
 ```
-docker ls -all
+docker ps -a
 ```
 
 # 4. Test
