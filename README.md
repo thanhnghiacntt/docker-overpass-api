@@ -27,16 +27,8 @@ docker ls -all
 ```
 
 # 4. Test
-Dùng postman:<br/>
-http://localhost:8888/api/interpreter<br/>
-Method post<br/>
-Data body dạng text:
-```
-[out:json][timeout:25];
-(
-  way["name"="Nguyễn Văn Linh"](16.026098131077337,108.17988395690917,16.099257728555084,108.27481269836426);
-);
-out body;
+Truy cập url<br/>
+http://localhost:8888/api/interpreter?data=[out:json][timeout:25];(way[%22name%22=%22Nguy%E1%BB%85n%20V%C4%83n%20Linh%22](16.026098131077337,108.17988395690917,16.099257728555084,108.27481269836426););out%20body;
 ```
 
 # Kết quả test:
@@ -44,7 +36,7 @@ out body;
   "version": 0.6,
   "generator": "Overpass API 0.7.55.4 3079d8ea",
   "osm3s": {
-    "timestamp_osm_base": "2018-09-26T03:08:02Z",
+    "timestamp_osm_base": "",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
